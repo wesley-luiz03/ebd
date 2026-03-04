@@ -1,0 +1,149 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #cce7ff, #f0f8ff);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(135deg, #42a5f5, #1e88e5);
+  color: white;
+  padding: 35px 20px;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'Fredoka', sans-serif;
+  letter-spacing: 1px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Estrelas maiores */
+header h1 {
+  margin: 0;
+}
+
+/* Animação suave */
+header span {
+  display: inline-block;
+  animation: brilho 2s infinite alternate;
+}
+
+/* Animação */
+@keyframes brilho {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.15);
+  }
+}
+
+/* CARD DA LIÇÃO */
+.info {
+  background: linear-gradient(135deg, #fff9c4, #ffe082);
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 25px;
+  width: 85%;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  font-family: 'Fredoka', sans-serif;
+  position: relative;
+}
+
+/* Título */
+.info h2 {
+  margin-top: 0;
+  font-size: 28px;
+  color: #1565c0;
+}
+
+/* Texto */
+.info p {
+  font-size: 20px;
+  margin: 12px 0;
+  line-height: 1.5;
+}
+
+/* TÍTULOS */
+h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+/* TABELA */
+.tabela {
+  margin: 20px;
+}
+
+table {
+  width: 95%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* CABEÇALHO DA TABELA */
+th {
+  background: linear-gradient(90deg, #4da6ff, #007bff);
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+}
+
+/* CÉLULAS */
+td {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  font-size: 22px;
+}
+
+/* Efeito zebra */
+tbody tr {
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+tbody tr:hover {
+  background-color: #fffde7;
+  transform: scale(1.005);
+}
+
+/* Destaque da criança */
+.destaque {
+  background: linear-gradient(90deg, #fff59d, #ffe082);
+  font-weight: bold;
+  transform: scale(1.01);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+/* Nome do campeão maior */
+.destaque td:first-child {
+  font-size: 22px;
+  color: #e65100;
+}
+
+/* Efeito suave ao passar mouse (só visual) */
+tr:hover td {
+  background-color: #e6f2ff;
+  transition: 0.3s;
+}
+
+.destaque {
+  background: linear-gradient(90deg, #fff59d, #ffe082);
+  font-weight: bold;
+  transform: scale(1.01);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+/* Nome do campeão maior */
+.destaque td:first-child {
+  font-size: 22px;
+  color: #e65100;
+}
