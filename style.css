@@ -103,6 +103,11 @@ td {
   font-size: 22px;
 }
 
+td {
+  vertical-align: top;
+  line-height: 28px;
+}
+
 /* Efeito zebra */
 tbody tr {
   transition: background 0.2s ease, transform 0.2s ease;
